@@ -1,0 +1,1 @@
+SELECT notes FROM projeto.purchase_orders WHERE notes LIKE '%#%' LIMIT 5;
