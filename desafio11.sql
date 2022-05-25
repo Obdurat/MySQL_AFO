@@ -1,1 +1,1 @@
-SELECT notes FROM projeto.purchase_orders WHERE notes LIKE '%#%' LIMIT 5;
+SELECT notes FROM projeto.purchase_orders WHERE notes BETWEEN 'Purchase generated based on Order #30' AND 'Purchase generated based on Order #39'; 
